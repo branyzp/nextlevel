@@ -62,7 +62,7 @@ function Skills() {
 					<div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<img
-								src="https://cdn.icon-icons.com/icons2/2415/PNG/512/typescript_original_logo_icon_146317.png"
+								src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png"
 								alt="typescript"
 							/>
 							<h3>TypeScript</h3>

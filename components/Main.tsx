@@ -13,7 +13,7 @@ function Main() {
 						Hi, I'm <span className="text-[#5651e5]">Brandon</span>.
 					</h1>
 					<h1 className="py-4 text-gray-600">
-						a <span className="text-[#2e96a3]">full-stack dev</span>eloper.{' '}
+						a <span className="text-[#5fc6d0]">full-stack dev</span>eloper.{' '}
 					</h1>
 					<p className="py-4 text-gray-600 max-w-[70%] m-auto">
 						I'm enjoying the process of learning new technologies and how they

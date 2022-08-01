@@ -6,7 +6,7 @@ function About() {
 		<div className=" w-full md:h-screen p-2 flex items-center py-16">
 			<div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
 				<div className=" col-span-2">
-					<p className="py-4 uppercase tracking-widest text-[#5651e5]">
+					<p className="py-4 text-xl uppercase tracking-widest text-[#5651e5]">
 						About Me
 					</p>
 					<h2 className=" py-2 text-gray-600">Who I am</h2>
@@ -16,10 +16,11 @@ function About() {
 					</p>
 					<p className=" py-2 text-gray-600">
 						&nbsp; Hello! I'm Brandon. I have a bachelor's degree in Business
-						(Finance & Economics) and have previously worked in the fields of
-						hospitality, customer service and banking. During my time working in
-						a bank, I was introduced to software engineering through working
-						closely with teams of software developers to build in-house systems.
+						(Finance & Economics) and have had previous working experience in
+						the fields of hospitality, customer service and banking. During my
+						time working in a bank, I was introduced to software engineering
+						through working closely with teams of software developers to build
+						in-house risk management systems.
 					</p>
 					<p className=" py-2 text-gray-600">
 						&nbsp; I started off with using HTML and CSS to build a personal
@@ -29,7 +30,7 @@ function About() {
 						since.
 					</p>
 					<p className=" py-2 text-[#8a88ce]">)&#125;</p>
-					<p className=" py-2 text-gray-600 underline cursor-pointer">
+					<p className=" ml-20 py-2 text-gray-600 underline cursor-pointer">
 						Check out some of my latest projects
 					</p>
 				</div>

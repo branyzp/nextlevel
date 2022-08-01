@@ -88,6 +88,23 @@ function Skills() {
 							<h3>mongoDB</h3>
 						</div>
 					</div>
+
+					<div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+						<div className="grid grid-cols-2 gap-4 justify-center items-center">
+							<img
+								src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_tailwind_icon_130128.png"
+								alt="html"
+							/>
+							<h3>Tailwind</h3>
+						</div>
+					</div>
+
+					<div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+						<div className="grid grid-cols-2 gap-4 justify-center items-center">
+							<img src="https://v4.mui.com/static/logo.png" alt="html" />
+							<h3>Material UI</h3>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

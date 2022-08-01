@@ -43,7 +43,7 @@ function Skills() {
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<img
 								src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_python_icon_130221.png"
-								alt="html"
+								alt="python"
 							/>
 							<h3>Python</h3>
 						</div>

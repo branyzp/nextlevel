@@ -20,7 +20,7 @@ function Navbar() {
 	};
 
 	return (
-		<div className="fixed w-full h-20 shadow-xl z-[100] backdrop-blur-sm">
+		<div className="fixed w-full h-20 shadow-xl z-[100] backdrop-blur-sm ">
 			<div className="flex justify-between items-center w-full h-full px-2">
 				<Image
 					src="https://i.imgur.com/cUH500e.png"

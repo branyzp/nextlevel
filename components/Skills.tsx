@@ -88,8 +88,8 @@ function Skills() {
 
 					<div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
-							<img src="https://i.imgur.com/0uNFHDC.png" alt="materialui" />
-							<h3>NextJS</h3>
+							<img src="https://i.imgur.com/0uNFHDC.png" alt="nextjs" />
+							<h3>Next.Js</h3>
 						</div>
 					</div>
 				</div>

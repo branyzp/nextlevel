@@ -20,8 +20,8 @@ function ProjectItem({
 				src={projectImg}
 				alt="calorition"
 			/>
-			<div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%]">
-				<h3 className="text-3xl text-white tracking-widest text-center">
+			<div className="opacity-0 group-hover:opacity-100 ease-in duration-200 absolute left-[50%] translate-x-[-50%]">
+				<h3 className="text-2xl text-white tracking-widest text-center">
 					{projectName}
 				</h3>
 				<p className="text-lg text-white trackingwidest text-center ">

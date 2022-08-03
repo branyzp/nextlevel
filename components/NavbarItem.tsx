@@ -7,8 +7,10 @@ interface Props {
 
 function NavbarItem({ navitem }: Props) {
 	return (
-		<Link href="/">
-			<li className="ml-10 py-4 text-sm uppercase hover:border-b">{navitem}</li>
+		<Link href={`/#${navitem}`}>
+			<li className="ml-10 py-4 text-sm uppercase hover:border-b">
+				<p className="text-sm tracking-widest">{navitem}</p>
+			</li>
 		</Link>
 	);
 }

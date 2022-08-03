@@ -29,7 +29,7 @@ function Navbar() {
 					height="50"
 				/>
 				<div>
-					<ul className="hidden md:flex">
+					<ul className="hidden md:flex px-5">
 						{navBarArr.map((navitem, index) => {
 							return <NavbarItem key={index} navitem={navitem} />;
 						})}

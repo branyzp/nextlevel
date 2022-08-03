@@ -12,21 +12,21 @@ function Projects() {
 				<div className="grid md:grid-cols-2 gap-8">
 					<ProjectItem
 						projectImg="https://i.imgur.com/FUz44Za.png"
-						projectName="Maze Runner"
+						projectName="Maze Runner Game"
 						projectUrl="https://mazerunner.vercel.app/"
 						projectStack="JavaScript + HTML Canvas"
 					/>
 
 					<ProjectItem
 						projectImg="https://i.imgur.com/KF2K5H2.png"
-						projectName="Calorition"
+						projectName="Nutrition App"
 						projectUrl="https://calorition.vercel.app/"
 						projectStack="React"
 					/>
 
 					<ProjectItem
 						projectImg="https://i.imgur.com/uF9ILHb.jpg"
-						projectName="Producthief"
+						projectName="Productivity App"
 						projectUrl="https://producthief.vercel.app/"
 						projectStack="React + Python/Django"
 					/>

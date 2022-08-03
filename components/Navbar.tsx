@@ -68,9 +68,9 @@ function Navbar() {
 							</div>
 						</div>
 						<div className="border-b border-gray-300 my-4">
-							<p className="w-[85%] md:w-[90%] py-4 tracking-widest ">
+							{/* <p className="w-[85%] md:w-[90%] py-4 tracking-widest ">
 								Let's build something amazing.
-							</p>
+							</p> */}
 						</div>
 						<div className="py-4 flex flex-col">
 							<ul>

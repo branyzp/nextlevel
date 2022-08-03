@@ -6,9 +6,9 @@ function Main() {
 		<div id="Home" className="w-full h-screen text-center">
 			<div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
 				<div>
-					<p className="uppercase text-sm tracking-widest text-gray-600">
+					{/* <p className="uppercase text-sm tracking-widest text-gray-600">
 						Let's build something amazing.
-					</p>
+					</p> */}
 					<h1 className="py-4 text-gray-700 ">
 						Hi, I'm <span className="text-[#5651e5]  ">Brandon</span>.
 					</h1>
@@ -26,7 +26,7 @@ function Main() {
 							target={'_blank'}
 							rel={'noopener noreferrer'}
 						>
-							<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100">
+							<div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-100">
 								<AiFillLinkedin />
 							</div>
 						</a>
@@ -36,7 +36,7 @@ function Main() {
 							target={'_blank'}
 							rel={'noopener noreferrer'}
 						>
-							<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100">
+							<div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-100">
 								<AiFillGithub />
 							</div>
 						</a>
@@ -46,7 +46,7 @@ function Main() {
 							target={'_blank'}
 							rel={'noopener noreferrer'}
 						>
-							<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100">
+							<div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-100">
 								<AiFillMail />
 							</div>
 						</a>

@@ -31,9 +31,11 @@ function About() {
 						since.
 					</p>
 					<p className=" py-2 text-[#8a88ce]">)&#125;</p>
-					<p className=" ml-20 py-2 text-gray-600 underline cursor-pointer">
-						<Link href="/#Projects">Check out some of my latest projects</Link>
-					</p>
+					<Link href="/#Projects">
+						<p className=" text-lg py-2 text-gray-600 underline cursor-pointer">
+							Check out some of my latest projects.
+						</p>
+					</Link>
 				</div>
 				<div className=" w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300 ">
 					{/* <Image

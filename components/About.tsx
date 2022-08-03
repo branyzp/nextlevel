@@ -15,7 +15,7 @@ function About() {
 						&nbsp;return (
 					</p>
 					<p className=" py-2 text-gray-600">
-						&nbsp; Hello! I'm Brandon. I have a bachelor's degree in Business
+						&nbsp; Hello! I'm Brandon. I have a Bachelor's degree in Business
 						(Finance & Economics) and have had previous working experience in
 						the fields of hospitality, customer service and banking. During my
 						time working in a bank, I was introduced to software engineering

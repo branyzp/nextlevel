@@ -10,7 +10,26 @@ function Projects() {
 				</p>
 				<h2 className="py-4 text-gray-600">What I've built</h2>
 				<div className="grid md:grid-cols-2 gap-8">
-					<ProjectItem />
+					<ProjectItem
+						projectImg="https://i.imgur.com/FUz44Za.png"
+						projectName="Maze Runner"
+						projectUrl="https://mazerunner.vercel.app/"
+						projectStack="JavaScript + HTML Canvas"
+					/>
+
+					<ProjectItem
+						projectImg="https://i.imgur.com/KF2K5H2.png"
+						projectName="Calorition"
+						projectUrl="https://calorition.vercel.app/"
+						projectStack="React"
+					/>
+
+					<ProjectItem
+						projectImg="https://i.imgur.com/uF9ILHb.jpg"
+						projectName="Producthief"
+						projectUrl="https://producthief.vercel.app/"
+						projectStack="React + Python/Django"
+					/>
 				</div>
 			</div>
 		</div>

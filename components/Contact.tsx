@@ -25,7 +25,7 @@ function Contact() {
 							target={'_blank'}
 							rel={'noopener noreferrer'}
 						>
-							<div className=" rounded-lg shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-100">
+							<div className=" rounded-lg shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 hover:bg-gray-600 hover:text-white ease-in duration-100">
 								<p className="text-lg"> Get in touch on Linkedin </p>
 								<AiOutlineLinkedin />
 							</div>
@@ -36,7 +36,7 @@ function Contact() {
 							target={'_blank'}
 							rel={'noopener noreferrer'}
 						>
-							<div className="rounded-lg shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-100">
+							<div className="rounded-lg shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 hover:bg-gray-600 hover:text-white ease-in duration-100">
 								<p className="text-lg">Check out my GitHub</p>
 								<AiOutlineGithub />
 							</div>
@@ -47,7 +47,7 @@ function Contact() {
 							target={'_blank'}
 							rel={'noopener noreferrer'}
 						>
-							<div className="rounded-lg shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-100">
+							<div className="rounded-lg shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 hover:bg-gray-600 hover:text-white ease-in duration-100">
 								<p className="text-lg">Send me a mail</p>
 								<AiOutlineMail />
 							</div>
@@ -58,12 +58,16 @@ function Contact() {
 						<h3 className="text-xl py-4 text-grey-600">
 							For the curious visitor!
 						</h3>
+						<p className="text-xl py-4 upper tracking-wide text-gray-600">
+							Thanks for reading thus far, I write more on Medium if you're
+							interested :D
+						</p>
 						<a
 							href="https://medium.com/@branyzp"
 							target={'_blank'}
 							rel={'noopener noreferrer'}
 						>
-							<div className="rounded-lg shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-100">
+							<div className="rounded-lg shadow-lg shadow-gray-400 p-5 cursor-pointer hover:bg-gray-600 hover:text-white hover:scale-105 ease-in duration-100">
 								<p className="text-lg">Read my blog!</p>
 								<AiOutlineBook />
 							</div>

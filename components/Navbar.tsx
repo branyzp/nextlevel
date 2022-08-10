@@ -31,7 +31,14 @@ function Navbar() {
 				<div>
 					<ul className="hidden md:flex px-5">
 						{navBarArr.map((navitem, index) => {
-							return <NavbarItem key={index} navitem={navitem} />;
+							return (
+								<NavbarItem
+									key={index}
+									navitem={navitem}
+									nav={nav}
+									setNav={setNav}
+								/>
+							);
 						})}
 					</ul>
 					<div onClick={handleNav} className="md:hidden cursor-pointer">
@@ -75,7 +82,14 @@ function Navbar() {
 						<div className="py-4 flex flex-col">
 							<ul>
 								{navBarArr.map((navitem, index) => {
-									return <NavbarItem key={index} navitem={navitem} />;
+									return (
+										<NavbarItem
+											key={index}
+											navitem={navitem}
+											nav={nav}
+											setNav={setNav}
+										/>
+									);
 								})}
 							</ul>
 							<div className="flex pt-40">
